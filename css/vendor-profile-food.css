@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main-header .vendor-profile .vendor-logo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+
+.main-header .vendor-profile .naomi-image{
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+.main-header .header-list{
+    position: relative;
+    z-index: 2;
+}
+
+.main-header .vendor-profile .naomi-image{
+    padding-top: 7% !important;
+}
+
+@media(max-width:426px){
+    #vendor-items-section .items-intro h5{
+        margin-right: 8px !important;
+       font-size: 12px;
+    }
+    #vendor-items-section .food-items .booknow a button{
+        width: 200px !important;
+    }
+}
