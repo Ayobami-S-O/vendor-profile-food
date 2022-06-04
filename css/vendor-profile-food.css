@@ -21,7 +21,9 @@
     opacity: 0.8;
   }
   
-
+#second-navbar .navbar{
+  background-color: #0E0E2C !important;
+}
 
 .main-header .vendor-profile .vendor-logo{
     position: absolute;
