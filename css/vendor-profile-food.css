@@ -51,11 +51,30 @@
 }
 
 @media(max-width:426px){
+
+  .main-header .header-list h5{
+    font-size: 12px;
+  }
+ 
     #vendor-items-section .items-intro h5{
         margin-right: 8px !important;
-       font-size: 12px;
+       font-size: 12px !important;
+      
     }
     #vendor-items-section .food-items .booknow a button{
         width: 200px !important;
     }
+}
+
+@media(max-width:376px){
+  #vendor-items-section .items-intro{
+    flex-direction: column;
+  }
+}
+
+@media(max-width:321px){
+  .main-header .header-list h5{
+    font-size: 8px;
+  }
+
 }
